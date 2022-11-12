@@ -8,5 +8,6 @@ namespace JD.API.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<User2> User2s { get; set; }
     }
 }
