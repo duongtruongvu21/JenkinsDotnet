@@ -9,5 +9,6 @@ namespace JD.API.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<User2> User2s { get; set; }
+        public DbSet<User3> User3s { get; set; }
     }
 }
