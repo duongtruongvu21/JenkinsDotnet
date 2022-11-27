@@ -41,6 +41,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// hi345
+
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
 app.UseCors("_myCORS");
 
 app.UseHttpsRedirection();

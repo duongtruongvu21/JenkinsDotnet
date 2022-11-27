@@ -75,5 +75,11 @@ namespace JD.API.Controllers
         {
             return Ok(_context.Users.ToList());
         }
+
+        [HttpGet("Jenkins")]
+        public IActionResult Jenkins()
+        {
+            return Ok("Jenkins Test 1");
+        }
     }
 }
